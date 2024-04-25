@@ -1,14 +1,13 @@
-package Lesson8;
+package Lesson12;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Lesson8_word {
+public class Lesson10 {
     public static void main(String[] args) {
-        String[] word ={"술", "목욕을 하다", "걸다", "하다","그러고 나서","풀장","자주/잘","레포트","노래하다","보다",
-        				"돌아가다","이번 주말","일어나다","기다리다","읽다","오다","애인","사다","듣다","죽다","쓰다","타다",
-        				"먹다","수영하다","필요하다","놀다","마시다","음악","일본 요리","들어가다","만들다","자르다","달리다",
-        				"늦게","알다","찍다","자다","무엇","만나다","합쳐지다","가다","말하다"};
+        String[] word ={"2층", "저기","있습니다","(사물,식물이)있다","(사람,동물이)있다","부럽다","편의점","실례합니다만",
+        				"화장실","어디","침대","원하다","아직","사이","책상","근처","학년","옆","공부 중","책장",
+        				"서점","위","은행","앞","뒤","안","통행인","꽃","꽃집"};
         Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> usedWords = new ArrayList<>(); // 이미 사용된 단어들을 추적하기 위한 리스트
